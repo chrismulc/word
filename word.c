@@ -9,6 +9,7 @@ typedef struct _Word{
 
 /* test comment */
 /* another comment */
+/* yet another commit */
 
 int main(){
 	Word test_word;
