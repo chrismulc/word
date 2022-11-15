@@ -8,6 +8,7 @@ typedef struct _Word{
 }Word;
 
 /* test comment */
+/* another comment */
 
 int main(){
 	Word test_word;
