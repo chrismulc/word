@@ -7,7 +7,7 @@ typedef struct _Word{
 	int frequency;
 }Word;
 
-
+/* test comment */
 
 int main(){
 	Word test_word;
