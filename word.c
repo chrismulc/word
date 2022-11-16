@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 typedef struct _Word{
 
@@ -14,6 +15,8 @@ typedef struct _Word{
 int main(){
 	Word test_word;
 	char source_string[20] = "Chris";
+	test_word.value = malloc(sizeof(source_string) + 1);
+
 	strcpy(test_word.value, source_string);
 
 	printf("%s\n", test_word.value);	
